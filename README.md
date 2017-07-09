@@ -16,9 +16,10 @@ In order to set up a website yourself, follow these simple steps:
   3.7 Edit the README.md file by typing "atom README.md" or open with your preferred text editor.
   3.8 Once you make a change, save and navigate back to your project directory. Your changes are in your working directory.
   3.9 Type "git add README.md" to add your changes to README.md to your staging area.
-  3.10 Type "git commit -m "First commit change to README file."" to commit all your changes in the staging area to the repository.
-  3.11 Type "git status" to verify your commit. It is a good habit to do this before and after commits to prevent mistakes.
-  3.12 Type "git pull" to get changes from the repo if you have other people adding to the repository.
+  3.10 Type "git commit -m "First commit change to README file."" to commit all your changes in the staging area to the local repository.
+  3.11 Type "git push" to push all your changes in the local repository to the remote repository.
+  3.12 Type "git status" to verify your commit. It is a good habit to do this before and after commits to prevent mistakes.
+  3.13 Type "git pull" to get changes from the repo if you have other people adding to the repository.
 4. Install a web server program to create a working environment (e.g. Apache, Lighttpd, IIS, nginx). We will use Apache, which is open source and free to use.
   4.0 Note: Apache is pre-installed on Mac OS X. In the world of DNS (Domain Name System), every machine/computer knows the address: localhost. This is a reference to your own server, located on your personal machine. You can hit localhost in the address bar of your browser without even being connected to the Internet. Localhost actually points to a reserved IP address of your own personal machine.
   4.1 Install Visual C++ Redistributable for Visual Studio 2012. This Microsoft software package contains dependencies for the Windows version of Apache server.
@@ -37,4 +38,4 @@ In order to set up a website yourself, follow these simple steps:
   4.7 You will want to move your document root somewhere other than the default htdocs folder. Open the httpd.conf file again and change the location for the DocumentRoot and the following line (approximately lines 246 and 247): "your-git-repo-directory-on-your-local-machine". You can have it anywhere you want. Note: any changes you make to the httpd.conf file will require a restart of the web server (close it and open it again) to take effect. I use wwwroot for my document root because I originally started on IIS.
   4.8 Enable mod_rewrite on your Apache server. Search for the line that contains mod_rewrite.so (in http.conf) and remove the preceding pound sign (#). Save the file and close.
 5. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire.
-6. 
+6.
