@@ -15,11 +15,11 @@ body {
 }
 .page-wrap {
     background-color: white;
-	padding: 16px;
-	max-width: 600px;
-	margin: 0 auto;
-	min-height: 100%;
-	height: 100%;
+    padding: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 100%;
+    height: 100%;
     /*background: rgba(255, 255, 255, .6);*/
     background: rgba(0, 0, 0, .4);
 }
@@ -30,39 +30,39 @@ body {
     /*color: #000000;*/
     color: white;
     text-align: center;
-	font-family: Helvetica;
-	font-weight: 700;
-	font-style: normal;
-	letter-spacing: 0.166667em;
-	font-size: 45px;
+    font-family: Helvetica;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 0.166667em;
+    font-size: 45px;
 }
 .page-subheader {
     /*color: #000000;*/
     color: white;
     text-align: center;
-	font-family: Helvetica;
-	font-weight: 600;
-	font-style: normal;
-	letter-spacing: 0.166667em;
-	font-size: 15px;
+  	font-family: Helvetica;
+  	font-weight: 600;
+  	font-style: normal;
+  	letter-spacing: 0.166667em;
+  	font-size: 15px;
 }
 .p-header {
     margin-top: 20px;
     margin-bottom: 0px;
 }
 .nav-bar {
-	text-align: center;
-	display: inline-block;
+  	text-align: center;
+  	display: inline-block;
     padding: 0px;
-	margin: 0 auto;
+  	margin: 0 auto;
 }
 .nav-container {
-	text-align: center;
+  	text-align: center;
 }
 .nav-button {
-	display: table-cell;
-	padding: 10px;
-	margin: 0 auto;
+  	display: table-cell;
+  	padding: 10px;
+  	margin: 0 auto;
 }
 .nav-button a {
     /*color: black;*/
@@ -77,24 +77,24 @@ body {
 .nav-button a:hover {
     color: #5594A8;
 }
-.content-body {
-	padding: 16px;
-	text-decoration: none;
-	font-family: Arial;
-	font-style: normal;
-	font-size: 18px;
-	line-height: 1.15;
+.content-body-container {
+  	padding: 16px 16px 28px 16px;
+  	text-decoration: none;
+  	font-family: Arial;
+  	font-style: normal;
+  	font-size: 18px;
+  	line-height: 1.15;
 }
-.content-body h1 {
+.content-body-container h1 {
     /*color: #000000;*/
     color: white;
-	text-align: center;
+	  text-align: center;
     font-family: Helvetica;
-	font-weight: bold;
-	font-size: 30px;
-	padding: 0px;
+	  font-weight: bold;
+	  font-size: 30px;
+	  padding: 0px;
     margin-top: 0px;
-	margin-bottom: 0px;
+	  margin-bottom: 0px;
 }
 p {
     /*color: #000000;*/
