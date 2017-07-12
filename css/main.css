@@ -1,17 +1,19 @@
 html {
-  background: url("../images/15thfloorColor.jpg");
-  -webkit-background-size: cover;
-  -moz-background-size: cover;
-  -o-background-size: cover;
-  background-size: cover;
+    background: url("../images/15thfloorColor.jpg");
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover
+    background-repeat: no-repeat;
+    background-attachment: fixed;
 }
 body {
-  font-family: Helvetica;
-  color: #333333; /* gray */
-  max-width: 600px;
-  height: 100%;
-  margin-left: auto;
-  margin-right: auto;
+    font-family: Helvetica;
+    color: #333333; /* gray */
+    max-width: 600px;
+    height: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 .page-wrap {
     background-color: white;
@@ -88,13 +90,13 @@ body {
 .content-body-container h1 {
     /*color: #000000;*/
     color: white;
-	  text-align: center;
+    text-align: center;
     font-family: Helvetica;
-	  font-weight: bold;
-	  font-size: 30px;
-	  padding: 0px;
+    font-weight: bold;
+    font-size: 30px;
+    padding: 0px;
     margin-top: 0px;
-	  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 p {
     /*color: #000000;*/
@@ -111,4 +113,22 @@ p {
 }
 .image-container img {
     opacity: .95;
+}
+.sticky-footer {
+    color: gray;
+    text-align: center;
+    font-size: 12px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.fading {
+    animation: fading 10s infinite;
+}
+.mySlides {
+  display:none; 
+}
+@keyframes fading {
+    0% {opacity: 0; }
+    50% {opacity: 1; }
+    100% {opacity: 0; }
 }
