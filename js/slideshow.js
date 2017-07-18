@@ -9,8 +9,8 @@ function carousel() {
     }
     index++;
     if (x.length < index) {
-		index = 1
-	}
+      index = 1
+    }
     x[index-1].style.display = "block";
     setTimeout(carousel, 10000);
 }

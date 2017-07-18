@@ -124,6 +124,9 @@ p {
 .fading {
     animation: fading 10s infinite;
 }
+.mySlides {
+  display:none; 
+}
 @keyframes fading {
     0% {opacity: 0; }
     50% {opacity: 1; }
