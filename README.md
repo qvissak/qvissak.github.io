@@ -44,4 +44,5 @@ In order to set up a website yourself, follow these simple steps:
 5. Install node.js and npm (make sure PATH is set correctly, it should automatically set with install). Check to see if you have it by opening Git Bash and typing "node -version" and "npm -version".
 
 6. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire. You'll also probably create some .js files as well as a couple .css files. Have fun with it.
+
 7.
