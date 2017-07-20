@@ -96,7 +96,7 @@ body {
   font-size: 30px;
   padding: 0px;
   margin-top: 0px;
-  margin-bottom: 0px;
+  margin-bottom: 20px;
 }
 .content-body-container a {
   color: white;
@@ -119,10 +119,13 @@ p {
 }
 .image-container {
   text-align: center;
-  padding: 20px 125px 0px 125px;
+  padding: 0px 125px 0px 125px;
 }
 .image-container img {
   opacity: .95;
+  padding: 3px;
+  border: 1px solid #021a40;
+  background-color: #333333;
 }
 .sticky-footer {
   color: gray;
@@ -131,17 +134,15 @@ p {
   margin-bottom: 10px;
   margin-top: 10px;
 }
-.fading {
-  animation: fading 10s infinite;
-}
 .slideshow {
+  animation: fading 7s infinite;
   text-align: center;
   width: 100%;
   min-width: 175px;
 
 }
 @keyframes fading {
-  0% {opacity: 0; }
-  50% {opacity: 1; }
-  100% {opacity: 0; }
+  0% {opacity: 0 }
+  50% {opacity: 1 }
+  100% {opacity: 0 }
 }

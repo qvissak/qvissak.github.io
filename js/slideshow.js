@@ -12,5 +12,5 @@ function carousel() {
       index = 1
     }
     x[index-1].style.display = "block";
-    setTimeout(carousel, 10000);
+    setTimeout(carousel, 7000);
 }
