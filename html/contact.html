@@ -11,6 +11,8 @@
   <link rel="shortcut icon" href="../images/PythonLogo.png">
   <!-- Load style sheets -->
   <link rel="stylesheet" href="../css/main.css">
+  <!-- Load scripts -->
+  <script src="../js/about.js"></script>
 </head>
 <body>
   <!-- Content will go here -->
@@ -44,9 +46,20 @@
     </div>
     <div class="content-body-container">
       <h1>Contact Information</h1>
-      <p>
-        Coming soon!
-      </p>
+      <div class="contact-image-wrapper">
+        <img onClick="swapPhoneDisplay()" src="../images/Phone.png" alt="Phone" style="padding: 0px 20px 0px 4px; cursor: pointer;" id="phoneDisplay"></img>
+        <a onClick="sendEmail()" target="_blank" style="cursor: pointer">
+          <img src="../images/gmail.png" alt="Email" style="padding: 0px 0px 0px 20px"></img>
+        </a>
+      </div>
+      <div class="contact-image-wrapper">
+        <a href="https://www.facebook.com/quinn.vissak" target="_blank">
+          <img src="../images/facebook.png" alt="Facebook" style="padding: 0px 30px 0px 0px"></img>
+        </a>
+        <a href="https://www.linkedin.com/in/quinn-vissak/" target="_blank">
+          <img src="../images/linkedin.png" alt="LinkedIn" style="padding: 0px 0px 0px 30px"></img>
+        </a>
+      </div>
     </div>
     <footer class="sticky-footer">
       <p>Website created by Quinn Vissak</p>
