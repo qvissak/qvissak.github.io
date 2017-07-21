@@ -146,3 +146,10 @@ p {
   50% {opacity: 1 }
   100% {opacity: 0 }
 }
+.contact-image-wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  vertical-align: center;
+  min-width: 400px;
+}
