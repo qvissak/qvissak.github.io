@@ -40,9 +40,13 @@ In order to set up a website yourself, follow these simple steps:
   4.6 Navigate to the Apache24/bin folder. Execute httpd.exe to run your server. It should be a blank black screen without any error messages. With your server running (you have to run the executable whenever you want localhost to work), you can use localhost (type it into your browser, like: http://localhost/) to access your web files. Your server uses the web files in Apache24/htdocs. There will already be a simple HTML file in there.
   4.7 You will want to move your document root somewhere other than the default htdocs folder. Open the httpd.conf file again and change the location for the DocumentRoot and the following line (approximately lines 246 and 247): "your-git-repo-directory-on-your-local-machine". You can have it anywhere you want. Note: any changes you make to the httpd.conf file will require a restart of the web server (close it and open it again) to take effect. Example of a document root path: C:\Users\Your-Name\Your-Repo-Name
   4.8 Enable mod_rewrite on your Apache server. Search for the line that contains mod_rewrite.so (in http.conf) and remove the preceding pound sign (#). Save the file and close.
+  4.9 If you are experiencing difficulties and step 4.6 does not work after doing the latter steps, then follow the advice below.
+    4.9.1 Open cmd. Type "netstat -a -o -n" and hit enter. Scroll up to the IP with port 80 (near the top). Write down the PID.
+    4.9.2 In cmd type "taskkill /F /PID #" where # is the number you wrote down in the previous step. Hit enter.
+    4.9.3 If you are unable to stop the server on that port from running, open your httpd.conf again. Change everywhere 80 is in the document to another port, say 3000. Start your local by typing in http://localhost:3000.
 
-5. Install node.js and npm (make sure PATH is set correctly, it should automatically set with install). Check to see if you have it by opening Git Bash and typing "node -version" and "npm -version".
+5. Install Node.js and npm (make sure PATH is set correctly, it should automatically set with install). Check to see if you have it by opening Git Bash and typing "node -version" and "npm -version". Npm should install with Node automatically. Node.js will be the framework for our website.
 
-6. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire. You'll also probably create some .js files as well as a couple .css files. Have fun with it.
+6. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire. You'll also probably create some .js files as well as a couple .css files. Have fun with it. If you are looking for a challenge, and to properly parse your code into components and modules, look into using React, a javascript library that allows you to build and render html code within your javascript files.
 
-7.
+7. 
