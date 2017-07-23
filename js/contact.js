@@ -5,5 +5,4 @@ function sendEmail() {
 };
 function swapPhoneDisplay() {
   document.getElementById("phoneDisplay").src = "../images/PhoneDenied.png"
-  document.getElementById("phoneDisplay").style = "padding: 0px 19px 0px 0px;";
 };

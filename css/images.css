@@ -1,0 +1,29 @@
+.image-container {
+  text-align: center;
+  padding: 0px 125px 0px 125px;
+}
+.image-container img {
+  opacity: .95;
+  padding: 3px;
+  border: 1px solid #021a40;
+  background-color: #333333;
+}
+.slideshow {
+  animation: fading 7s infinite;
+  text-align: center;
+  width: 100%;
+  min-width: 175px;
+
+}
+@keyframes fading {
+  0% {opacity: 0 }
+  50% {opacity: 1 }
+  100% {opacity: 0 }
+}
+.contact-image-wrapper {
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center;
+  vertical-align: center;
+  min-width: 400px;
+}
