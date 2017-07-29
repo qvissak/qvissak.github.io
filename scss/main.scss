@@ -130,6 +130,10 @@ p {
   margin-bottom: 10px;
   margin-top: 10px;
 }
+hr {
+  width: 90%;
+  opacity: .5;
+}
 .columns {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */
   -moz-column-count: 2; /* Firefox */
