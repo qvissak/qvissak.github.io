@@ -3,14 +3,16 @@
 <head>
   <!-- General information -->
   <title>Experience Page</title>
-  <meta name="author" content="Quinn Vissak">
-  <meta name="keywords" content="Quinn, Vissak, CSE, CS, TA, UConn, computer, science, and, engineering, python, macys, artis, energy, programming, teaching, assistant, university, of, connecticut">
-  <meta name="description" content="Projects page outlining tech stacks">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="shortcut icon" href="../images/PythonLogo.png">
+  <meta name="author" content="Quinn Vissak" />
+  <meta name="keywords" content="Quinn, Vissak, CSE, CS, TA, UConn, computer, science, and, engineering, python, macys, artis, energy, programming, teaching, assistant, university, of, connecticut" />
+  <meta name="description" content="Projects page outlining tech stacks" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="../images/PythonLogo.png" />
   <!-- Load style sheets -->
-  <link rel="stylesheet" href="../css/main.css">
+  <link rel="stylesheet" href="../scss/main.scss" />
+  <link rel="stylesheet" href="../scss/listview.scss" />
+  <link rel="stylesheet" href="../scss/images.scss" />
 </head>
 <body>
   <!-- Content will go here -->
@@ -44,15 +46,146 @@
     </div>
     <div class="content-body-container">
       <h1>Experience</h1>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
-        <li></li>
+      <ul class="outer">
+        <li class="outer shadow">
+          <div class="experience-image-wrapper">
+            <img src="../images/MacysExperience.png" style="width: inherit; border-radius: 10%;"></img>
+          </div>
+          <div class="header-wrapper">
+            <div class="title">Full-Stack DevOps Intern</div>
+            <div class="subtitle">Macy's</div>
+            <div class="subtitle-details">
+              Jun 2017 - Present
+              <br />
+              San Francisco, CA
+            </div>
+          </div>
+          <div class="description-body">
+            <ul class="inner">
+              <li>
+                Participated in a Macy's Lean Lab, taking on a lean agile approach to software development.
+              </li>
+              <li>
+                Use GitLab to set up projects for developers.
+              </li>
+              <li>
+                Full stack developer on Zeus - Continuous Integration project aimed at removing project-specific logic from orchestrator Git code; will allow self- service provisioning and application deployment across the delivery pipeline. Develop user interface in HTML, SCSS, and React.js, use of Google APIs, writing plug-in scripts to integrate additional cloud and compilation platforms, and using Python to develop Macy's logic on the back-end.
+              </li>
+              <li>
+                Created automated regression user-interface tests in JavaScript using Selenium web-driver and TestCafe web testing framework to hook up to Continuous Integration.
+              </li>
+              <li>
+                Zeus platform uses DSL/blueprint/component definitions to describe specific deployments.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="outer shadow">
+          <div class="experience-image-wrapper">
+            <img src="../images/ArtisEnergyExperience.png" style="width: inherit; border-radius: 10%;"></img>
+          </div>
+          <div class="header-wrapper">
+            <div class="title">Software Engineering Intern</div>
+            <div class="subtitle">Artis Energy fka NXEGEN</div>
+            <div class="subtitle-details">
+              Jan 2016 - Present
+              <br />
+              Middletown, CT
+            </div>
+          </div>
+          <div class="description-body">
+            <ul class="inner">
+              <li>
+                Software development of real-time energy monitoring software, RTIS, including the creation of stored procedures and functions in SQL, internal monitoring applications in ASP.NET using TFS, C# and HTML, as well as database architecture.
+              </li>
+              <li>
+                Web development of Admin User Interface to set up new customers.
+              </li>
+              <li>
+                Full-stack development on xRM project, including database design and implementation, API set up, front and back end in ASP.NET.
+              </li>
+              <li>
+                Variety of monitoring applications (electrical, temperature, weather and rate data) to ensure validity and presence of live data.
+              </li>
+              <li>
+                Created proposal, documentation, and logic to utilize a linked database and write scripts to transfer billing data from utility providers to RTIS platform (per my 3rd party company recommendation).
+              </li>
+              <li>
+                Created automated procedures to update utility rate information for utility providers used by customers in database.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="outer shadow">
+          <div class="experience-image-wrapper">
+            <img src="../images/UConnExperience.png" style="width: inherit; border-radius: 10%;"></img>
+          </div>
+          <div class="header-wrapper">
+            <div class="title">CSE Teaching Assistant</div>
+            <div class="subtitle">University of Connecticut</div>
+            <div class="subtitle-details">
+              Aug 2016 - May 2017
+              <br />
+              Storrs, CT
+            </div>
+          </div>
+          <div class="description-body">
+            <ul class="inner">
+              <li>
+                Fall 2017: CSE 1729 Introduction to Computer Programming in Scheme.
+              </li>
+              <li>
+                Spring 2017: CSE 2500 Introduction to Discrete Systems.
+              </li>
+              <li>
+                Fall 2016: CSE 2500 Introduction to Discrete Systems.
+              </li>
+              <li>
+                Held office hours and problem review sessions to supplement course content; taught guest lectures.
+              </li>
+              <li>
+                Created grading rubrics and graded homework assignments.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <li class="outer shadow">
+          <div class="experience-image-wrapper">
+            <img src="../images/CollegeWorksExperience.png" style="width: inherit; border-radius: 10%;"></img>
+          </div>
+          <div class="header-wrapper">
+            <div class="title">Branch Manager</div>
+            <div class="subtitle">College Works Painting</div>
+            <div class="subtitle-details">
+              Feb 2016 - Nov 2016
+              <br />
+              Fairfield County, CT
+            </div>
+          </div>
+          <div class="description-body">
+            <ul class="inner">
+              <li>
+                1st in sales in New England Division - grossed over $125,000 in painting services sales.
+              </li>
+              <li>
+                1st in production in New England Division - grossed $112,508.50 in painting services.
+              </li>
+              <li>
+                Highest Quality Award Winner New England Division.
+              </li>
+              <li>
+                100K Club Member
+              </li>
+              <li>
+                Intern of the Year Nominee
+              </li>
+            </ul>
+          </div>
+        </li>
       </ul>
     </div>
     <footer class="sticky-footer">
+      <hr />
       <p>Website created by Quinn Vissak</p>
     </footer>
   </div>

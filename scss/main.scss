@@ -9,8 +9,7 @@ html {
 }
 body {
   font-family: Helvetica;
-  color: #333333; /* gray */
-  max-width: 600px;
+  color: #333333;
   height: auto;
   margin-left: auto;
   margin-right: auto;
@@ -18,9 +17,9 @@ body {
 .page-wrap {
   background-color: white;
   padding: 16px;
-  max-width: 600px;
+  max-width: 700px;
   margin: 0 auto;
-  min-height: 100%;
+  min-height: 100vh;
   height: 100%;
   background: rgba(0, 0, 0, .4);
 }
@@ -115,7 +114,6 @@ body {
   font-style: italic;
 }
 p {
-    /*color: #000000;*/
   color: white;
   padding-left: 15px;
   padding-right: 15px;
@@ -129,6 +127,15 @@ p {
   font-size: 12px;
   margin-bottom: 10px;
   margin-top: 10px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+hr {
+  width: 650px;
+  opacity: .5;
 }
 .columns {
   -webkit-column-count: 2; /* Chrome, Safari, Opera */

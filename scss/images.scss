@@ -1,6 +1,7 @@
 .image-container {
   text-align: center;
-  padding: 0px 125px 0px 125px;
+  padding-left: 25%;
+  padding-right: 25%;
 }
 .image-container img {
   opacity: .95;
@@ -27,3 +28,17 @@
   vertical-align: center;
   min-width: 400px;
 }
+.experience-image-container {
+  float: left;
+  height: 100%;
+  width: auto;
+  padding: 10px;
+}
+.experience-image-wrapper {
+  float: left;
+  height: 72px;
+  width: 72px;
+  padding: 2px 12px 0px 3px;
+  overflow: hidden;
+}
+.
