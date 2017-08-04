@@ -3,14 +3,16 @@
 <head>
   <!-- General information -->
   <title>Projects Page</title>
-  <meta name="author" content="Quinn Vissak">
-  <meta name="keywords" content="Quinn, Vissak, CSE, CS, TA, UConn, computer, science, and, engineering, python, macys, artis, energy, programming, teaching, assistant, university, of, connecticut">
-  <meta name="description" content="Projects page outlining tech stacks">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta charset="UTF-8">
-  <link rel="shortcut icon" href="../images/PythonLogo.png">
+  <meta name="author" content="Quinn Vissak" />
+  <meta name="keywords" content="Quinn, Vissak, CSE, CS, TA, UConn, computer, science, and, engineering, python, macys, artis, energy, programming, teaching, assistant, university, of, connecticut" />
+  <meta name="description" content="Projects page outlining tech stacks" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta charset="UTF-8" />
+  <link rel="shortcut icon" href="../images/PythonLogo.png" />
   <!-- Load style sheets -->
-  <link rel="stylesheet" href="../scss/main.scss">
+  <link rel="stylesheet" href="../scss/main.scss" />
+  <link rel="stylesheet" href="../scss/listview.scss" />
+  <link rel="stylesheet" href="../scss/images.scss" />
 </head>
 <body>
   <!-- Content will go here -->
@@ -44,13 +46,176 @@
     </div>
     <div class="content-body-container">
       <h1>Projects</h1>
-      <p>
-        Coming soon!
-      </p>
+      <ul class="outer">
+        <!-- Macy's Intern Project -->
+        <li class="outer shadow">
+          <div class="projects-git-image-wrapper">
+            <img class="experience-polish" src="../images/MacysRoof.jpg"></img>
+          </div>
+          <div>
+              <a class="title gitlink" href="https://gitlab.com" target="_blank">GitLab - Coming Soon!</a>
+          </div>
+          <div class="header-wrapper">
+            <div class="title">Digital Browse Media Wall</div>
+            <div class="subtitle-details">
+              June 21, 2017 - August 16, 2017
+              <br />
+              Contributors: Annabelle Bench, Vanessa Cruz, Taylar Gomez, Sarah Gorring, Tarek Hatata, Isiah Manns, Josh Singh, Carmen Tin, and Quinn Vissak
+            </div>
+          </div>
+          <div class="description-body">
+            <ul class="inner">
+              <li>
+                Wall mountable screen which bridges the gap in the omnichannel experience. The wall allows multiple users at a time to check in-store/online inventory, online reviews, product information, compare products and call an associate to unlock expensive items on display.
+              </li>
+              <li>
+                Responsible for ideation and front end implementation.
+              </li>
+              <li>
+                Stack: JSX, React.js, CSS, Java, mySQL, GCE, Macy's XAPI, and Node.js.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- Personal Website 1.0 -->
+        <li class="outer shadow">
+          <div class="projects-git-image-wrapper">
+            <img class="experience-polish" src="../images/GitHub.jpg"></img>
+          </div>
+          <div>
+              <a class="title gitlink" href="https://github.com/qvissak/PersonalWebsite" target="_blank">GitHub</a>
+          </div>
+          <div class="header-wrapper">
+            <div class="title">Personal Website 1.0</div>
+            <div class="subtitle-details">
+              July 9, 2017 - August 3, 2017
+              <br />
+              Contributors: Quinn Vissak
+            </div>
+          </div>
+          <div class="description-body">
+            <ul class="inner">
+              <li>
+                Initially created to write proper step by step documentation for beginners on how to create one's own website, including configuration and server hosting. Intended use at <a href="https://uconntact.uconn.edu/organization/acm/" target="_blank">UConn ACM</a> tech tutorial meetings starting in Fall 2017; requested tutorial by members. As President, I took it upon myself to honor their requests.
+              </li>
+              <li>
+                Developed in spare time while working full time at Macy's Technology and part time at Artis Energy in Summer of 2017.
+              </li>
+              <li>
+                Built using only <a href="https://en.wikipedia.org/wiki/HTML" target="_blank">HTML</a>, <a href="https://www.javascript.com/" target="_blank">JS</a> and <a href="http://sass-lang.com/" target="_blank">SCSS</a>. Hosted on <a href="https://www.apache.org/" target="_blank">Apache Server</a>. My first attempt at web development.
+              </li>
+              <li>
+                Learned <a href="https://facebook.github.io/react/" target="_blank">React.js</a> library and utilized Google API's for front end development while at Macy's Technology (simaltaneously during the development of this site). Hence, version 2 is being built currently with <a href="https://facebook.github.io/react/" target="_blank">React.js</a> to componentize elements.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- Allergy Aid 911 -->
+        <li class="outer shadow">
+          <div class="projects-git-image-wrapper">
+            <img class="experience-polish" src="../images/keepsmilin.png"></img>
+          </div>
+          <div>
+              <a class="title gitlink" href="https://github.com/qvissak/" target="_blank">GitHub - Coming Soon!</a>
+          </div>
+          <div class="header-wrapper">
+            <div class="title">Hack UConn - "Allergy Aid 911"</div>
+            <div class="subtitle-details">
+              March 2017
+              <br />
+              Contributors: Gabriele Cattoni and Quinn Vissak
+            </div>
+          </div>
+          <div class="description-body">
+            <ul class="inner">
+              <li>
+                Android application designed to increase the amount of time someone has prior to emergency response before going into full anaphylactic shock. Also increases bystander awareness about allergens and reaction symptoms to over 90% of the most common food related allergies.
+              </li>
+              <li>
+                Please request to see proof of concept and fully functional application, as development is ongoing.
+              </li>
+              <li>
+                Conducted extensive market research and analytics. Received endorsement by <a href="https://keepsmilin4abbie.org/" target="_blank">Keep Smilin 4 Abbie Foundation</a>.
+              </li>
+              <li>
+                Stack: XML, Java, and Android Studio.
+              </li>
+              <li>
+                Finalist in Connecticut's Innovation Quest Competition of Entrepreneurship.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- Student Admin Redesign -->
+        <li class="outer shadow">
+          <div class="projects-git-image-wrapper">
+            <img class="experience-polish" src="../images/UConnExperience.png"></img>
+          </div>
+          <div>
+              <a class="title gitlink" href="https://github.uconn.edu/lwm14001/Student-Admin-Redesign" target="_blank">GitHub</a>
+          </div>
+          <div class="header-wrapper">
+            <div class="title">Student Admin Redesign</div>
+            <div class="subtitle-details">
+              September 2016 - November 2016
+              <br />
+              Contributors: Ryan Blau, Luke Malinowski, Jonathan McGowan, Renoj Varghese, and Quinn Vissak
+            </div>
+          </div>
+          <div class="description-body">
+            <ul class="inner">
+              <li>
+                Software Engineering CSE 2102 semester project.
+              </li>
+              <li>
+                Redesign of the current UConn student and professional administration system with a focus on better functional requirements, more simplistic user interfaces, more portability, a complex database architecture, better security features, sanitation of inputs, and more comprehensive dynamic class search algorithms.
+              </li>
+              <li>
+                Stack: HTML, JS, CSS, Java and Linux MySQL Tomcat Web-server.
+              </li>
+              <li>
+                Responsible for design, creation and implementation of database.
+              </li>
+            </ul>
+          </div>
+        </li>
+        <!-- Hack UMass -->
+        <li class="outer shadow">
+          <div class="projects-git-image-wrapper">
+            <img class="experience-polish" src="../images/HackUMass.jpg"></img>
+          </div>
+          <div>
+              <a class="title gitlink" href="https://github.uconn.edu/dwm10005/happenin-web" target="_blank">GitHub</a>
+          </div>
+          <div class="header-wrapper">
+            <div class="title">Hack UMass - "Happenin"</div>
+            <div class="subtitle-details">
+              October 2016
+              <br />
+              Contributors: Kyle Fujio, Sam Markelon, Dalton Minor, and Quinn Vissak
+            </div>
+          </div>
+          <div class="description-body">
+            <ul class="inner">
+              <li>
+                Meet up web-application designed to bring people together based on geolocation by common interest or activities happenin right now.
+              </li>
+              <li>
+                Stack: HTML, JS, CSS, Node.js, Google Maps API, Python and mySQL.
+              </li>
+              <li>
+                48 Hour Hackathon at the University of Massachusetts.
+              </li>
+            </ul>
+          </div>
+        </li>
+      </ul>
     </div>
     <footer class="sticky-footer">
     <hr />
-      <p>Website created by Quinn Vissak</p>
+      <p>Version 1.0</p>
+      <p>Version 2.0 coming soon being built using React.js</p>
+      <p>Designed and Implemented by Quinn Vissak</p>
     </footer>
   </div>
 </body>
