@@ -39,5 +39,12 @@ ul.inner {
 }
 .gitlink {
   float: right;
-  top: 5%;
+  max-width: 20%;
+}
+.lab {
+  max-width: 15%;
+}
+.caption {
+  font-size: 8px;
+  text-align: center;
 }
