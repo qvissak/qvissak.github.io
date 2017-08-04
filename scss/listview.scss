@@ -12,14 +12,17 @@ li.outer {
 }
 .shadow {
   box-shadow:inset 0px 0px 5px 1px #101010;
-
 }
 .content-body-container .subtitle {
   font-size: 14px;
+  font-weight: bold;
+  padding-bottom: 3px;
+  letter-spacing: .5px;
 }
 .content-body-container .title {
-  font-size: 14px;
-  font-weight: 500;
+  font-size: 16px;
+  font-weight: bold;
+  letter-spacing: 1px;
 }
 .content-body-container .subtitle-details {
 
@@ -32,4 +35,9 @@ ul.inner {
 }
 .header-wrapper {
   margin-left: 80px;
+  padding-bottom: 5px;
+}
+.gitlink {
+  float: right;
+  top: 5%;
 }

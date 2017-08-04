@@ -47,6 +47,6 @@ In order to set up a website yourself, follow these simple steps:
 
 5. Install Node.js and npm (make sure PATH is set correctly, it should automatically set with install). Check to see if you have it by opening Git Bash and typing "node -version" and "npm -version". Npm should install with Node automatically. Node.js will be the framework for our website.
 
-6. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire. You'll also probably create some .js files as well as a couple .css files. Have fun with it. If you are looking for a challenge, and to properly parse your code into components and modules, look into using React, a javascript library that allows you to build and render html code within your javascript files.
+6. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire. You'll also probably create some .js files as well as a couple .css files. Have fun with it. If you are looking for a challenge, and to properly parse your code into components and modules, look into using React.js, a Javascript library that allows you to build and render html code within your Javascript files; especially useful for componentizing your code for reuse and customization. 
 
-7. 
+7.

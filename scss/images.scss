@@ -38,7 +38,16 @@
   float: left;
   height: 72px;
   width: 72px;
-  padding: 2px 12px 0px 3px;
+  padding: 2px 12px 4px 3px;
   overflow: hidden;
 }
-.
+.projects-git-image-wrapper {
+  float: left;
+  height: auto;
+  width: 72px;
+}
+.experience-polish {
+  width: inherit;
+  border-radius: 10%;
+  border: 1px solid #000000;
+}
