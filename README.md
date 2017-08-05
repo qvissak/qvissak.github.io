@@ -1,4 +1,4 @@
-# PersonalWebsite
+# qvissak.github.io
 Personal and professional website with project and resume details.
 
 # How To Create Your Own Website (w/ configurations)
@@ -6,11 +6,14 @@ Please note that my machine is a windows machine running Windows 10. Set-up inst
 In order to set up a website yourself, follow these simple steps:
 1. Make sure you have a clear understanding of HTML (Hyper Text Markup Language), JavaScript (not the same as Java) and CSS (Cascading Style Sheet Computing).
 
-2. Install a text-editor, such as Notepad++ or Atom.
+2. Install a text-editor, such as Notepad++, Atom or Vim.
 
 3. If you would like to post your code publically or even keep it private and accessible from any computer, set up a Github repository.
   3.1 Install Git and set up your text editor in your local PATH.
   3.2 Create an account on github.com.
+    3.2.1 Make sure to name your repository username.github.io so that you'll be able to host your website for free. You are allowed one domain per Github account.
+    3.2.2 If you want to use an existing repository, you can rename it online. Be careful when renaming it especially with multiple contributors because changes might be lost and re-cloing might be necessary.
+    3.2.3 Visit https://pages.github.com for more information. You could also customize your own URL by purchasing a domain name from a DNS provider.
   3.3 Follow the simple steps to create your first repository. Be sure to initialize your repository with a README.md in order to clone it to your computer.
   3.4 Clone the repository. Open the Git Bash, and type "git clone https://www.github.com/your=account/your-project-name".
   3.5 Navigate into the repository by typing "cd your=project-name".
@@ -47,6 +50,6 @@ In order to set up a website yourself, follow these simple steps:
 
 5. Install Node.js and npm (make sure PATH is set correctly, it should automatically set with install). Check to see if you have it by opening Git Bash and typing "node -version" and "npm -version". Npm should install with Node automatically. Node.js will be the framework for our website.
 
-6. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire. You'll also probably create some .js files as well as a couple .css files. Have fun with it. If you are looking for a challenge, and to properly parse your code into components and modules, look into using React.js, a Javascript library that allows you to build and render html code within your Javascript files; especially useful for componentizing your code for reuse and customization. 
+6. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire. You'll also probably create some .js files as well as a couple .css files. Have fun with it. If you are looking for a challenge, and to properly parse your code into components and modules, look into using React.js, a Javascript library that allows you to build and render html code within your Javascript files; especially useful for componentizing your code for reuse and customization.
 
 7.
