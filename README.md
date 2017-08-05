@@ -11,7 +11,7 @@ In order to set up a website yourself, follow these simple steps:
 3. If you would like to post your code publically or even keep it private and accessible from any computer, set up a Github repository.
   3.1 Install Git and set up your text editor in your local PATH.
   3.2 Create an account on github.com.
-    3.2.1 Make sure to name your repository username.github.io so that you'll be able to host your website for free. You are allowed one domain per Github account.
+    3.2.1 Make sure to name your repository your-username.github.io so that you'll be able to host your website for free. You are allowed one domain per Github account.
     3.2.2 If you want to use an existing repository, you can rename it online. Be careful when renaming it especially with multiple contributors because changes might be lost and re-cloing might be necessary.
     3.2.3 Visit https://pages.github.com for more information. You could also customize your own URL by purchasing a domain name from a DNS provider.
   3.3 Follow the simple steps to create your first repository. Be sure to initialize your repository with a README.md in order to clone it to your computer.
@@ -47,9 +47,18 @@ In order to set up a website yourself, follow these simple steps:
     4.9.1 Open cmd. Type "netstat -a -o -n" and hit enter. Scroll up to the IP with port 80 (near the top). Write down the PID.
     4.9.2 In cmd type "taskkill /F /PID #" where # is the number you wrote down in the previous step. Hit enter.
     4.9.3 If you are unable to stop the server on that port from running, open your httpd.conf again. Change everywhere 80 is in the document to another port, say 3000. Start your local by typing in http://localhost:3000.
+Note: if you are only going to be developing in html/css files with minor JavaScript, you can type the file path into your browser where your files are saved to render the page. Using a server regardless, however is excellent practice and a necessary tool when using a complex framework to sculpt your project.
 
-5. Install Node.js and npm (make sure PATH is set correctly, it should automatically set with install). Check to see if you have it by opening Git Bash and typing "node -version" and "npm -version". Npm should install with Node automatically. Node.js will be the framework for our website.
+5. Install Node.js and npm (make sure PATH is set correctly, it should automatically set with install). Check to see if you have it by opening Git Bash and typing "node -version" and "npm -version". Npm should install with Node automatically.
+Note: Node.js is a great framework to use. It is optional but highly recommended for any website with JavaScript.
 
-6. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire. You'll also probably create some .js files as well as a couple .css files. Have fun with it. If you are looking for a challenge, and to properly parse your code into components and modules, look into using React.js, a Javascript library that allows you to build and render html code within your Javascript files; especially useful for componentizing your code for reuse and customization.
+6. In your text editor, create a file called "homepage.html" and save it in your repo directory. Modify it to your heart's desire. You'll also probably create some .js files as well as a couple .css files. Have fun with it. If you are looking for a challenge, and to properly parse your code into components and modules, look into using React.js, a JavaScript library that allows you to build and render html-like code (actually called JSX) within your JavaScript files; especially useful for componentizing your code for reuse and customization.
 
-7.
+7. Launch your website for the world to see.
+  7.1 Navigate to your repository on GitHub.
+  7.2 Click on the settings tab.
+  7.3 Make sure your project repository name matches your username in  the format your-username.github.io
+  7.4 Rename your landing page file to index.html and put it in the main directory. Don't forget to update any references to that file or in that file.
+  7.5 Go to https://your-username.github.io to see your hard work!
+
+8. Change your URL to something more custom. 
