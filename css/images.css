@@ -13,8 +13,6 @@
   animation: fading 7s infinite;
   text-align: center;
   width: 100%;
-  min-width: 125px;
-
 }
 @keyframes fading {
   0% {opacity: 0 }
