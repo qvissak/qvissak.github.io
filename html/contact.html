@@ -26,29 +26,24 @@
         <p>a full stack software developer</p>
       </div>
     </div>
-    <div class="nav-container">
-      <ul class="nav-bar">
-        <li class="nav-button">
-          <a href="../index.html">Home</a>
-        </li>
-        <li class="nav-button">
-          <a href="about.html">About</a>
-        </li>
-        <li class="nav-button">
-          <a href="projects.html">Projects</a>
-        </li>
-        <li class="nav-button">
-          <a href="experience.html">Experience</a>
-        </li>
-        <li class="nav-button">
-          <a href="skills.html">Skills</a>
-        </li>
-      </ul>
+    <div class="nav-container-reg">
+      <a href="../index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="projects.html">Projects</a>
+      <a href="experience.html">Experience</a>
+      <a href="skills.html">Skills</a>
+    </div>
+    <div class="nav-container-responsive">
+      <a href="../index.html"><img src="../images/icons/home.png" /></a>
+      <a href="about.html"><img src="../images/icons/user.png" /></a>
+      <a href="projects.html"><img src="../images/icons/folder.png" /></a>
+      <a href="experience.html"><img src="../images/icons/archive.png" /></a>
+      <a href="skills.html"><img src="../images/icons/certificate.png" /></a>
     </div>
     <div class="content-body-container">
       <h1>Contact Information</h1>
       <div class="contact-image-wrapper">
-        <img onClick="swapPhoneDisplay()" src="../images/Phone.png" alt="Phone" style="cursor: pointer;" id="phoneDisplay"></img>
+        <img id="phoneDisplay" onClick="swapPhoneDisplay()" src="../images/Phone.png" alt="Phone" style="cursor: pointer;"></img>
         <a style="padding-right: 60px"></a>
         <a onClick="sendEmail()" target="_blank" style="cursor: pointer">
           <img src="../images/gmail.png" alt="Email"></img>
@@ -56,19 +51,18 @@
       </div>
       <div class="contact-image-wrapper">
         <a href="https://www.facebook.com/quinn.vissak" target="_blank">
-          <img src="../images/facebook.png" alt="Facebook"></img>
+          <img src="../images/facebook.png" alt="Facebook" style="padding-top: 10px"></img>
         </a>
         <a style="padding-right: 60px"></a>
         <a href="https://www.linkedin.com/in/quinn-vissak/" target="_blank">
-          <img src="../images/linkedin.png" alt="LinkedIn"></img>
+          <img src="../images/linkedin.png" alt="LinkedIn" style="padding-top: 20px"></img>
         </a>
       </div>
     </div>
     <footer class="sticky-footer">
       <hr />
-      <p>Version 1.0</p>
-      <p>Version 2.0 coming soon being built using React.js</p>
-      <p>Designed and Implemented by Quinn Vissak</p>
+      <p>Curious, innovative and personable - an exciting, rare combination</p>
+      <p>Created by Quinn Vissak</p>
     </footer>
   </div>
 </body>

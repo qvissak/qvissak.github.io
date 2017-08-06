@@ -1,6 +1,6 @@
 .image-container {
   text-align: center;
-  padding-left: 25%;
+  padding-left: 22.5%;
   padding-right: 25%;
 }
 .image-container img {
@@ -13,8 +13,6 @@
   animation: fading 7s infinite;
   text-align: center;
   width: 100%;
-  min-width: 175px;
-
 }
 @keyframes fading {
   0% {opacity: 0 }
@@ -22,11 +20,8 @@
   100% {opacity: 0 }
 }
 .contact-image-wrapper {
-  margin-left:auto;
-  margin-right:auto;
+  position: relative;
   text-align: center;
-  vertical-align: center;
-  min-width: 400px;
 }
 .experience-image-container {
   float: left;
