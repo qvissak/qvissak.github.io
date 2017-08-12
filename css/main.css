@@ -82,11 +82,11 @@ body {
 .nav-container-responsive a:hover {
   color: #5594A8;
 }
-@media (min-width: 655px) {
+@media (min-width: 601px) {
   div.nav-container-reg { display: block }
   div.nav-container-responsive { display: none }
 }
-@media (max-width: 654px) {
+@media (max-width: 600px) {
   div.nav-container-reg { display: none }
   div.nav-container-responsive { display: block }
 }
