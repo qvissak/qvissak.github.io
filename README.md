@@ -57,8 +57,8 @@ Note: Node.js is a great framework to use. It is optional but highly recommended
 7. Launch your website for the world to see.
   7.1 Navigate to your repository on GitHub.
   7.2 Click on the settings tab.
-  7.3 Make sure your project repository name matches your username in  the format your-username.github.io
-  7.4 Rename your landing page file to index.html and put it in the main directory. Don't forget to update any references to that file or in that file.
+  7.3 Make sure your project repository name matches your username in the format your-username.github.io
+  7.4 Rename your landing page file to index.html and put it in the root directory. Don't forget to update any references to that file or in that file.
   7.5 Go to https://your-username.github.io to see your hard work!
 
-8. Change your URL to something more custom. 
+8. Change your URL to something more custom. You'll have to pay a DNS-provider for the URL.
