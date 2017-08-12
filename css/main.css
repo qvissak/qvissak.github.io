@@ -71,6 +71,8 @@ body {
   font-size: 17px;
   text-align: center;
   letter-spacing: 0.166667em;
+  position: relative;
+  min-width: 655;
 }
 .nav-container-responsive a {
   color: white;
